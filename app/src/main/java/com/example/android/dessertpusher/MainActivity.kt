@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         }
 
         //Timer.
-        desertTimer = DessertTimer()
+        desertTimer = DessertTimer(this.lifecycle)
 
 
         // Set the TextViews to the right values
