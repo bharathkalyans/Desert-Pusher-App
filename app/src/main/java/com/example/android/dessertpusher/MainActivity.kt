@@ -157,7 +157,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
     override fun onStart() {
         super.onStart()
         Timber.i("onStart Called!")
-        desertTimer.startTimer()
+
     }
 
 
@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
     override fun onStop() {
         super.onStop()
         Timber.i("onStop Called!")
-        desertTimer.stopTimer()
+
     }
 
     override fun onDestroy() {
